@@ -2,7 +2,7 @@ spring:
   application:
     name: servicetwo
 server:
-  port: 8081
+  port: ${port:8081}
 eureka:
   client:
     service-url:
